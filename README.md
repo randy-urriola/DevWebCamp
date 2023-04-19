@@ -41,6 +41,14 @@ Note: the payment versions must be made through PayPal but currently this functi
 
 The first thing the administrator sees is an administration panel as a dashboard where a summary of the most relevant information for him is presented, i.e. the latest registrations, the income of the event by registered people, the events with less places available and those with more places. This area has different tabs such as speakers, here you can register new speakers for the conferences, you can modify the information of each one as well as delete them from the database, for better visualization of the speakers a pager was built.  Then there is the events tab built with the same logic, add new ones, modify the existing ones and display them. In the same way there are the registered users, here they are shown with the most relevant information such as name, email and the plan they chose for the event. Finally there is the section of gifts that is nothing more than a graph with the gifts chosen by the users of the payment plans.
 
+## Responsive :balloon:
+
+It is worth mentioning that the project is fully responsive for phones 480px, tablets 768px, computers 1024 and 1200 px.
+
+<p align="center">
+<img src="public/img/readme/respo.gif" width="85%">
+</p>
+
 ## Author :black_nib:
 This project is part of the course "Desarrollo web Completo" whose the instructor is Juan de la Torre, you can see his page <a href="https://codigoconjuan.com/" target="_blank">here</a>:arrow_forward:.
 

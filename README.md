@@ -13,19 +13,22 @@ The project was built with the MVC structure, mostly with PHP language, JavaScri
 
 <img align="right" src="public/img/readme/1.gif" width="55%">
 
+
 To begin with, participants will be able to see the home page, which presents a summary of the important information of the event, i.e. the date of the event, the name of all the workshops and conferences, the speakers for each of these as well as the time of each event, a map to see the location of the event (made with <a href="https://leafletjs.com/" target="_blank">Leaflet</a>) and the tickets with their respective prices, as well as a button that will take them to a tab that will show them what each ticket contains. The home page uses animations for its elements, for these animations I used <a target="_blank" href="https://michalsnik.github.io/aos/">AOS</a> (animate On Scroll Library).
 
 
 ## Evento, Workshop / Conferencias, Comprar pase y paquetes :arrow_upper_right:
 
-<img align="left" src="public/img/readme/2.gif" width="55%">
+<img align="right" src="public/img/readme/2.gif" width="55%">
+
 
 In this part I show you the other functionalities of the public area, for example, you have the tab "event", here is given a brief description about the event in general, then we have the tab packages that contains the different methods or plans that are available, followed by the section workshops / conferences, here are shown all the events (the <a href="https://swiperjs.com/" target="_blank">Swiper</a> library is used for the slider), with their description, speakers, times and dates and finally I show you the registration section for those who want to attend must register here or if you already have an account and chose one of the event passes, you can log in to see your ticket.
 
 
 ## A register simulation 	:mag_right:
 
-<img align="left" src="public/img/readme/3.gif" width="50%">
+<img align="right" src="public/img/readme/3.gif" width="55%">
+
 
 Here I show you how a person who wants to attend the event would register. First the form, all the fields of this form are properly validated and are required, this information is necessary to generate the personalized ticket, once the correct information is placed, proceed to verify the user's email (for this part I used PHPMailer). After confirming the user's account, the user is sent to the "finish registration" window, here the participant must choose one of the 3 plans. Finally, the user is shown his ticket with his name and the plan he has chosen.
 Note: the payment versions must be made through PayPal but currently this function is not available.
